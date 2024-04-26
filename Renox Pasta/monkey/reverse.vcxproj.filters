@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="reverse.cpp" />
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="rat.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="reverse.h" />
+    <ClInclude Include="rat.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="ud.h" />
+    <ClInclude Include="Keybind.h" />
+    <ClInclude Include="skcrypt.h" />
+    <ClInclude Include="d3d9_x.h" />
+    <ClInclude Include="xor.hpp" />
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="..\..\KeyAuth-CPP-Example-main\skStr.h" />
+    <ClInclude Include="..\..\KeyAuth-CPP-Example-main\auth.hpp" />
+    <ClInclude Include="auth.hpp" />
+    <ClInclude Include="imgui_help.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{89d64466-55af-43c5-a8af-5eea6a5f52cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{c3ea2088-a3ad-41bf-b883-8ddf92287b64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\KeyAuth-CPP-Example-main\libcurl.lib" />
+    <Library Include="..\..\KeyAuth-CPP-Example-main\library_x64.lib" />
+    <Library Include="libcurl.lib" />
+    <Library Include="library_x64.lib" />
+  </ItemGroup>
+</Project>
